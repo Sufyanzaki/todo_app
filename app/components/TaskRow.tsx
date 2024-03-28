@@ -1,5 +1,5 @@
 import {CheckIcon, TrashIcon} from "@heroicons/react/24/outline";
-import {DataDto} from "@/app/provider/DataProvider";
+import {DataDto} from "@/app/types/TaskTypes";
 
 type TaskRowProps = {
     item: DataDto;
